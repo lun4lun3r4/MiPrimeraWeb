@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi primera web</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Mi primera web</h1>
+    <nav>
+        <a href="index.html">Inicio</a> |
+        <a href="contenidos.html">Contenido</a> |
+        <a href="contacto.html">Contacto</a>
+    </nav>
+    <hr>
+    <h2>Contáctame aquí</h2>
+    <form action="index.html" method="get">
+        <label for="nombre">Nombre:</label><br>
+        <input type="text" id="nombre" name="nombre" required><br><br>
+
+        <label for="biografia">Biografía:</label><br>
+        <textarea id="biografia" name="biografia" required></textarea><br><br>
+
+        <label for="edad">Edad:</label><br>
+        <select id="edad" name="edad">
+            <option value="mayor_de_edad">Mayor de edad</option>
+            <option value="adulto">Adulto</option>
+            <option value="mayor_65">Mayor de 65 años</option>
+        </select><br><br>
+
+        <input type="submit" value="Enviar">
+    </form>
+</body>
+</html>
